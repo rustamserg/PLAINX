@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A20FBB65-23E3-46A3-9283-55BDB9C1CD68}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\res;.\inc;..\thirdlibs\directx\inc;..\thirdlibs\zlib\inc;..\thirdlibs\fmod\inc;..\thirdlibs\paintlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/plainxlib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\lib\plainxd.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/plainxlib.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>Copy lib to core</Message>
+      <Command>copy .\lib\plainxd.lib ..\core\lib\plainxd.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.\res;.\inc;..\thirdlibs\directx\inc;..\thirdlibs\zlib\inc;..\thirdlibs\fmod\inc;..\thirdlibs\paintlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/plainxlib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\lib\plainx.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/plainxlib.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>Copy lib to core</Message>
+      <Command>copy .\lib\plainx.lib ..\core\lib\plainx.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\archive.h" />
+    <ClInclude Include="inc\console.h" />
+    <ClInclude Include="inc\cursor.h" />
+    <ClInclude Include="inc\display.h" />
+    <ClInclude Include="inc\effects.h" />
+    <ClInclude Include="inc\engine.h" />
+    <ClInclude Include="inc\fileman.h" />
+    <ClInclude Include="inc\fmodcore.h" />
+    <ClInclude Include="inc\input.h" />
+    <ClInclude Include="inc\lang.h" />
+    <ClInclude Include="inc\listener.h" />
+    <ClInclude Include="inc\log.h" />
+    <ClInclude Include="inc\mapman.h" />
+    <ClInclude Include="inc\netman.h" />
+    <ClInclude Include="inc\parser.h" />
+    <ClInclude Include="inc\plainx.h" />
+    <ClInclude Include="inc\pxapp.h" />
+    <ClInclude Include="inc\pxbbox.h" />
+    <ClInclude Include="inc\resman.h" />
+    <ClInclude Include="inc\sndcore.h" />
+    <ClInclude Include="inc\sndman.h" />
+    <ClInclude Include="inc\sprite.h" />
+    <ClInclude Include="inc\sprman.h" />
+    <ClInclude Include="inc\strman.h" />
+    <ClInclude Include="inc\strtable.h" />
+    <ClInclude Include="inc\surface.h" />
+    <ClInclude Include="inc\targetver.h" />
+    <ClInclude Include="inc\vars.h" />
+    <ClInclude Include="inc\video.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows\v6.0A\Include\WinNT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\console.cpp" />
+    <ClCompile Include="src\cursor.cpp" />
+    <ClCompile Include="src\display.cpp" />
+    <ClCompile Include="src\effects.cpp" />
+    <ClCompile Include="src\engine.cpp" />
+    <ClCompile Include="src\fileman.cpp" />
+    <ClCompile Include="src\fmodcore.cpp" />
+    <ClCompile Include="src\input.cpp" />
+    <ClCompile Include="src\listener.cpp" />
+    <ClCompile Include="src\log.cpp" />
+    <ClCompile Include="src\mapman.cpp" />
+    <ClCompile Include="src\netman.cpp" />
+    <ClCompile Include="src\parser.cpp" />
+    <ClCompile Include="src\pxapp.cpp" />
+    <ClCompile Include="src\pxbbox.cpp" />
+    <ClCompile Include="src\resman.cpp" />
+    <ClCompile Include="src\sndcore.cpp" />
+    <ClCompile Include="src\sndman.cpp" />
+    <ClCompile Include="src\sprite.cpp" />
+    <ClCompile Include="src\sprman.cpp" />
+    <ClCompile Include="src\strman.cpp" />
+    <ClCompile Include="src\strtable.cpp" />
+    <ClCompile Include="src\surface.cpp" />
+    <ClCompile Include="src\vars.cpp" />
+    <ClCompile Include="src\video.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

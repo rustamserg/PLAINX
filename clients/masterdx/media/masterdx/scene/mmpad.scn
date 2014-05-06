@@ -1,0 +1,265 @@
+BEGIN=SCENE,mmpad
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=1000
+ wheight=1000
+ zpos=0
+END
+
+BEGIN=SPRITE,tc11
+ data=tc11
+ wposxy=384,444
+ zpos=2
+END
+
+BEGIN=SPRITE,tc12
+ data=tc12
+ wposxy=431,444
+ zpos=2
+END
+
+BEGIN=SPRITE,tc13
+ data=tc13
+ wposxy=478,444
+ zpos=2
+END
+
+BEGIN=SPRITE,tc14
+ data=tc14
+ wposxy=525,444
+ zpos=2
+END
+
+BEGIN=SPRITE,tc21
+ data=tc21
+ wposxy=384,411
+ zpos=2
+END
+
+BEGIN=SPRITE,tc22
+ data=tc22
+ wposxy=433,411
+ zpos=2
+END
+
+BEGIN=SPRITE,tc23
+ data=tc23
+ wposxy=481,411
+ zpos=2
+END
+
+BEGIN=SPRITE,tc24
+ data=tc24
+ wposxy=529,411
+ zpos=2
+END
+
+BEGIN=SPRITE,tc31
+ data=tc31
+ wposxy=384,375
+ zpos=2
+END
+
+BEGIN=SPRITE,tc32
+ data=tc32
+ wposxy=434,375
+ zpos=2
+END
+
+BEGIN=SPRITE,tc33
+ data=tc33
+ wposxy=484,375
+ zpos=2
+END
+
+BEGIN=SPRITE,tc34
+ data=tc34
+ wposxy=534,375
+ zpos=2
+END
+
+BEGIN=SPRITE,tc41
+ data=tc41
+ wposxy=383,337
+ zpos=2
+END
+
+BEGIN=SPRITE,tc42
+ data=tc42
+ wposxy=435,337
+ zpos=2
+END
+
+BEGIN=SPRITE,tc43
+ data=tc43
+ wposxy=487,337
+ zpos=2
+END
+
+BEGIN=SPRITE,tc44
+ data=tc44
+ wposxy=538,337
+ zpos=2
+END
+
+BEGIN=SPRITE,tc51
+ data=tc51
+ wposxy=383,296
+ zpos=2
+END
+
+BEGIN=SPRITE,tc52
+ data=tc52
+ wposxy=436,296
+ zpos=2
+END
+
+BEGIN=SPRITE,tc53
+ data=tc53
+ wposxy=490,296
+ zpos=2
+END
+
+BEGIN=SPRITE,tc54
+ data=tc54
+ wposxy=543,296
+ zpos=2
+END
+
+BEGIN=SPRITE,tc61
+ data=tc61
+ wposxy=382,253
+ zpos=2
+END
+
+BEGIN=SPRITE,tc62
+ data=tc62
+ wposxy=438,253
+ zpos=2
+END
+
+BEGIN=SPRITE,tc63
+ data=tc63
+ wposxy=493,253
+ zpos=2
+END
+
+BEGIN=SPRITE,tc64
+ data=tc64
+ wposxy=548,253
+ zpos=2
+END
+
+BEGIN=SPRITE,tc71
+ data=tc71
+ wposxy=381,205
+ zpos=2
+END
+
+BEGIN=SPRITE,tc72
+ data=tc72
+ wposxy=439,205
+ zpos=2
+END
+
+BEGIN=SPRITE,tc73
+ data=tc73
+ wposxy=497,205
+ zpos=2
+END
+
+BEGIN=SPRITE,tc74
+ data=tc74
+ wposxy=554,205
+ zpos=2
+END
+
+BEGIN=SPRITE,tc81
+ data=tc81
+ wposxy=381,154
+ zpos=2
+END
+
+BEGIN=SPRITE,tc82
+ data=tc82
+ wposxy=441,154
+ zpos=2
+END
+
+BEGIN=SPRITE,tc83
+ data=tc83
+ wposxy=500,154
+ zpos=2
+END
+
+BEGIN=SPRITE,tc84
+ data=tc84
+ wposxy=560,154
+ zpos=2
+END
+
+BEGIN=SPRITE,tc91
+ data=tc91
+ wposxy=380,99
+ zpos=2
+END
+
+BEGIN=SPRITE,tc92
+ data=tc92
+ wposxy=442,99
+ zpos=2
+END
+
+BEGIN=SPRITE,tc93
+ data=tc93
+ wposxy=504,99
+ zpos=2
+END
+
+BEGIN=SPRITE,tc94
+ data=tc94
+ wposxy=566,99
+ zpos=2
+END
+
+BEGIN=SPRITE,c1
+ data=c1
+ wposxy=99,311
+ zpos=2
+END
+
+BEGIN=SPRITE,c2
+ data=c2
+ wposxy=224,312
+ zpos=2
+END
+
+BEGIN=SPRITE,c3
+ data=c3
+ wposxy=71,207
+ zpos=2
+END
+
+BEGIN=SPRITE,c4
+ data=c4
+ wposxy=209,207
+ zpos=2
+END
+
+BEGIN=SPRITE,c5
+ data=c5
+ wposxy=40,82
+ zpos=2
+END
+
+BEGIN=SPRITE,c6
+ data=c6
+ wposxy=190,83
+ zpos=2
+END
+
+BEGIN=SPRITE,mmpad
+ data=mmpad
+ wposxy=0,0
+ zpos=1
+END

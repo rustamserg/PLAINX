@@ -1,0 +1,31 @@
+#help group
+BEGIN=GROUP,options
+ archive=master.gaf
+END
+
+BEGIN=DATA,options
+ fname=anim\options.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,vol
+ fname=anim\vol.gif
+ ckey=1
+END
+
+BEGIN=DATA,chk1
+ fname=anim\chk1.gif
+ ckey=0
+END
+
+BEGIN=DATA,chk2
+ fname=anim\chk2.gif
+ ckey=0
+END
+
+BEGIN=DATA,chk3
+ fname=anim\chk3.gif
+ ckey=0
+END
+

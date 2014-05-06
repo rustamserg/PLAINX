@@ -1,0 +1,31 @@
+#example of sprite manager config file
+BEGIN=SCENE,dlgnewopt
+ viewrect=170,110,640,330
+ cameraxy=0,0
+ wwidth=500 
+ wheight=300
+ zpos=7
+END
+
+BEGIN=SPRITE,mnewopt
+ data=mnewopt
+ blenddata=_mnewopt
+ wposxy=90,90
+ zpos=2
+ visible=0
+END
+
+BEGIN=SPRITE,okcenter
+ data=okcenter
+ wposxy=205,26
+ zpos=2
+ frames=2
+ visible=0
+END 
+
+BEGIN=SPRITE,dialog
+ data=dialog
+ wposxy=0,0
+ zpos=1
+ visible=0
+END

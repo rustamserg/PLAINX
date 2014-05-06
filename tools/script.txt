@@ -1,0 +1,80 @@
+DAT specification:
+1) # - comments
+2) GROUP - define group
+3) count - numbers of DATA in GROUP (required)
+3) DATA - define one data
+4) fname - define filename of resource image (required)
+5) width - width (optional) if present defined new size
+6) height - height (optional) if present defined new size
+7) ckey - define color key (optional). If absent no color key.
+8) archive - name of archive there is group resource locations (optional).
+9) END - mark end of block  (group or data)
+
+#examlpe
+GROUP=test
+ count=2
+
+ DATA=test
+  fname=anim\robot.bmp
+  ckey=0
+ END
+
+ DATA=test2
+  fname=anim\cursor.bmp
+  ckey=0
+ END
+	
+END
+#end example
+
+SCN specification:
+1) # - comments
+2) SCENE - define scene
+3) viewrect - rect of screen area for scene in screen coords (required)
+4) cameraxy - position of camera in world coords (optional) , default is 0,0
+5) cellsizexy - size of one world cell (required)
+6) wwidth  - width of world in cell coords (required)
+7) wheight - height of world in cell coords (required)
+8) zpos - zpos of scene (required), maximum is 10
+9) useclear - is clear view rect before update (optional), default is false
+10) count - numbers of sprites (required)
+12) SPRITE - define one sprite
+13) data - name of resource data (required)
+14) wposxy - coords in world coords (required)
+15) zpos - depth of sprite (optional),default is 0
+16) frames - numbers of frames (optional), default is 1
+17) rows - numbers of rows (optional), default is 1
+18) speed - speed of animation (optional), default is 0 (no animation)
+19) baserect - rect in surface coords of ground place (8 - reguired, 9 - optional (height))
+20) description - sprite description (optional)
+21) visible - if sprite draw (optional) default true
+
+#example of sprite manager config file
+SCENE=cursor
+ top=0
+ left=0
+ right=640
+ bottom=480
+ camerax=0
+ cameray=0
+ cellsize=1
+ wwidth=640
+ wheight=480
+ zpos=10
+ enable=1
+ count=1
+
+#data is name of resources, see test.cfg 
+#visible is 1 we draw sprite else skip sprite
+#speed is number of tick per one frame
+ SPRITE=cursor
+  data=test2
+  xpos=0
+  ypos=0
+  frames=30
+  speed=2
+ END
+
+END
+#end of example sprite config
+

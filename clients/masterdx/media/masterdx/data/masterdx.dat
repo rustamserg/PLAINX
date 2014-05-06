@@ -1,0 +1,722 @@
+#masterdx group
+#count is number of data in this group
+BEGIN=GROUP,masterdx
+ archive=master.gaf
+END
+
+BEGIN=DATA,check
+ fname=anim\check.gif
+ ckey=1
+END
+
+BEGIN=DATA,new
+ fname=anim\new.gif
+ ckey=1
+END
+
+BEGIN=DATA,rotate
+ fname=anim\rotate.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,selframe
+ fname=anim\selected.gif
+ ckey=1
+END
+
+BEGIN=DATA,frame_l
+ fname=anim\frame_l.gif
+ ckey=1
+END
+
+BEGIN=DATA,frame_r
+ fname=anim\frame_r.gif
+ ckey=1
+END
+
+BEGIN=DATA,frame_t
+ fname=anim\frame_t.gif
+ ckey=1
+END
+
+BEGIN=DATA,frame_b
+ fname=anim\frame_b.gif
+ ckey=1
+END
+ 
+BEGIN=DATA,button
+ fname=anim\button1.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,cursor
+ fname=anim\cursor.gif
+ memory=system
+ ckey=1
+END
+ 
+BEGIN=DATA,close
+ fname=anim\close1.gif
+ ckey=0
+END
+
+BEGIN=DATA,minim
+ fname=anim\minim1.gif
+ ckey=0
+END
+
+BEGIN=DATA,mmpad
+ fname=anim\mmpad.jpg
+ memory=video
+ ckey=0
+END
+
+BEGIN=DATA,kozyirek
+ fname=anim\kozyirek.gif
+ ckey=0
+END
+
+BEGIN=DATA,fishka01
+ fname=anim\fishki\01.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka02
+ fname=anim\fishki\02.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka03
+ fname=anim\fishki\03.gif
+ ckey=0
+END
+
+BEGIN=DATA,fishka04
+ fname=anim\fishki\04.gif
+ ckey=0
+END
+
+BEGIN=DATA,fishka11
+ fname=anim\fishki\11.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka12
+ fname=anim\fishki\12.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka13
+ fname=anim\fishki\13.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka14
+ fname=anim\fishki\14.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka21
+ fname=anim\fishki\21.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka22
+ fname=anim\fishki\22.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka23
+ fname=anim\fishki\23.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka24
+ fname=anim\fishki\24.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka31
+ fname=anim\fishki\31.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka32
+ fname=anim\fishki\32.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka33
+ fname=anim\fishki\33.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka34
+ fname=anim\fishki\34.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka41
+ fname=anim\fishki\41.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka42
+ fname=anim\fishki\42.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka43
+ fname=anim\fishki\43.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka44
+ fname=anim\fishki\44.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka51
+ fname=anim\fishki\51.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka52
+ fname=anim\fishki\52.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka53
+ fname=anim\fishki\53.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka54
+ fname=anim\fishki\54.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka61
+ fname=anim\fishki\61.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka62
+ fname=anim\fishki\62.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka63
+ fname=anim\fishki\63.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka64
+ fname=anim\fishki\64.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka71
+ fname=anim\fishki\71.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka72
+ fname=anim\fishki\72.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka73
+ fname=anim\fishki\73.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka74
+ fname=anim\fishki\74.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka81
+ fname=anim\fishki\81.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka82
+ fname=anim\fishki\82.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka83
+ fname=anim\fishki\83.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka84
+ fname=anim\fishki\84.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka91
+ fname=anim\fishki\91.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka92
+ fname=anim\fishki\92.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka93
+ fname=anim\fishki\93.gif
+ ckey=1
+END
+
+BEGIN=DATA,fishka94
+ fname=anim\fishki\94.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish11
+ fname=anim\fishki\result\a11.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish12
+ fname=anim\fishki\result\a12.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish13
+ fname=anim\fishki\result\a13.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish14
+ fname=anim\fishki\result\a14.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish21
+ fname=anim\fishki\result\a21.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish22
+ fname=anim\fishki\result\a22.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish23
+ fname=anim\fishki\result\a23.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish24
+ fname=anim\fishki\result\a24.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish31
+ fname=anim\fishki\result\a31.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish32
+ fname=anim\fishki\result\a32.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish33
+ fname=anim\fishki\result\a33.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish34
+ fname=anim\fishki\result\a34.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish41
+ fname=anim\fishki\result\a41.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish42
+ fname=anim\fishki\result\a42.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish43
+ fname=anim\fishki\result\a43.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish44
+ fname=anim\fishki\result\a44.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish51
+ fname=anim\fishki\result\a51.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish52
+ fname=anim\fishki\result\a52.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish53
+ fname=anim\fishki\result\a53.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish54
+ fname=anim\fishki\result\a54.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish61
+ fname=anim\fishki\result\a61.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish62
+ fname=anim\fishki\result\a62.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish63
+ fname=anim\fishki\result\a63.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish64
+ fname=anim\fishki\result\a64.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish71
+ fname=anim\fishki\result\a71.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish72
+ fname=anim\fishki\result\a72.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish73
+ fname=anim\fishki\result\a73.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish74
+ fname=anim\fishki\result\a74.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish81
+ fname=anim\fishki\result\a81.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish82
+ fname=anim\fishki\result\a82.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish83
+ fname=anim\fishki\result\a83.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish84
+ fname=anim\fishki\result\a84.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish91
+ fname=anim\fishki\result\a91.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish92
+ fname=anim\fishki\result\a92.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish93
+ fname=anim\fishki\result\a93.gif
+ ckey=1
+END
+
+BEGIN=DATA,afish94
+ fname=anim\fishki\result\a94.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf1
+ fname=anim\lineframe\1.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf2
+ fname=anim\lineframe\2.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf3
+ fname=anim\lineframe\3.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf4
+ fname=anim\lineframe\4.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf5
+ fname=anim\lineframe\5.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf6
+ fname=anim\lineframe\6.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf7
+ fname=anim\lineframe\7.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf8
+ fname=anim\lineframe\8.gif
+ ckey=1
+END
+
+BEGIN=DATA,lf9
+ fname=anim\lineframe\9.gif
+ ckey=1
+END
+
+BEGIN=DATA,c1
+ fname=anim\fishcell\1.gif
+ memory=video
+ ckey=1
+END
+ 
+BEGIN=DATA,c2
+ fname=anim\fishcell\2.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,c3
+ fname=anim\fishcell\3.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,c4
+ fname=anim\fishcell\4.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,c5
+ fname=anim\fishcell\5.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,c6
+ fname=anim\fishcell\6.gif
+ memory=video
+ ckey=1
+END
+
+BEGIN=DATA,tc11
+ fname=anim\testcell\11.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc12
+ fname=anim\testcell\12.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc13
+ fname=anim\testcell\13.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc14
+ fname=anim\testcell\14.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc21
+ fname=anim\testcell\21.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc22
+ fname=anim\testcell\22.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc23
+ fname=anim\testcell\23.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc24
+ fname=anim\testcell\24.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc31
+ fname=anim\testcell\31.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc32
+ fname=anim\testcell\32.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc33
+ fname=anim\testcell\33.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc34
+ fname=anim\testcell\34.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc41
+ fname=anim\testcell\41.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc42
+ fname=anim\testcell\42.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc43
+ fname=anim\testcell\43.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc44
+ fname=anim\testcell\44.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc51
+ fname=anim\testcell\51.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc52
+ fname=anim\testcell\52.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc53
+ fname=anim\testcell\53.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc54
+ fname=anim\testcell\54.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc61
+ fname=anim\testcell\61.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc62
+ fname=anim\testcell\62.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc63
+ fname=anim\testcell\63.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc64
+ fname=anim\testcell\64.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc71
+ fname=anim\testcell\71.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc72
+ fname=anim\testcell\72.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc73
+ fname=anim\testcell\73.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc74
+ fname=anim\testcell\74.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc81
+ fname=anim\testcell\81.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc82
+ fname=anim\testcell\82.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc83
+ fname=anim\testcell\83.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc84
+ fname=anim\testcell\84.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc91
+ fname=anim\testcell\91.gif
+ ckey=0
+END
+ 
+BEGIN=DATA,tc92
+ fname=anim\testcell\92.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc93
+ fname=anim\testcell\93.gif
+ ckey=0
+END
+
+BEGIN=DATA,tc94
+ fname=anim\testcell\94.gif
+ ckey=0
+END
+#end masterdx group
+
+

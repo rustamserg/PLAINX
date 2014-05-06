@@ -1,0 +1,52 @@
+BEGIN=SCENE,options
+ zpos=3
+ viewrect=0,0,400,600
+ cameraxy=400,0
+ wwidth=800
+ wheight=600
+ cellsize=800,600
+END
+
+BEGIN=SPRITE,chk1
+ zpos=2
+ data=chk1
+ visible=0
+ wposxy=117,336
+END
+
+BEGIN=SPRITE,chk2
+ zpos=2
+ data=chk2
+ visible=0
+ wposxy=117,276
+END
+
+BEGIN=SPRITE,chk3
+ zpos=2
+ data=chk3
+ visible=0
+ wposxy=117,214
+END
+
+BEGIN=SPRITE,options
+ zpos=1
+ data=options
+ visible=1
+ wposxy=34,19
+END
+
+BEGIN=SPRITE,vol1
+ zpos=2
+ data=vol
+ visible=1
+ wposxy=211,511
+END
+
+BEGIN=SPRITE,vol2
+ zpos=2
+ data=vol
+ visible=1
+ wposxy=211,429
+END
+
+

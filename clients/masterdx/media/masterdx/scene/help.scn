@@ -1,0 +1,431 @@
+#help scene
+BEGIN=SCENE,help
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=800
+ wheight=600
+ zpos=3
+END
+
+BEGIN=SPRITE,help01
+ data=help01
+ visible=0
+ wposxy=0,0
+ zpos=1
+END
+
+BEGIN=SPRITE,help02
+ data=help02
+ visible=0
+ wposxy=0,0
+ zpos=1
+END
+
+BEGIN=SPRITE,help03
+ data=help03
+ visible=0
+ wposxy=0,0
+ zpos=1
+END
+  
+BEGIN=SPRITE,arrowl
+ data=arrowl
+ blenddata=_arrowl
+ visible=0
+ wposxy=570,50
+ zpos=2
+END
+
+BEGIN=SPRITE,arrowr
+ data=arrowr
+ blenddata=_arrowr
+ visible=0
+ wposxy=640,50
+ zpos=2
+END
+
+BEGIN=SPRITE,cross
+ data=cross
+ blenddata=_cross
+ visible=0
+ wposxy=710,45
+ zpos=2
+END
+
+BEGIN=SPRITE,reginv
+ data=reginv
+ visible=0
+ wposxy=500,150
+ zpos=2
+ frames=2
+END
+
+BEGIN=SPRITE,plainx
+ data=plainx
+ visible=0
+ wposxy=100,270
+ zpos=2
+ frames=2
+END
+
+BEGIN=SPRITE,skaven
+ data=skaven
+ visible=0
+ wposxy=100,60
+ zpos=2
+ frames=2
+END
+
+BEGIN=SPRITE,regwho
+ data=regwho
+ blenddata=_regwho
+ visible=0
+ wposxy=170,445
+ zpos=2
+END
+
+BEGIN=SPRITE,regno
+ data=regno
+ blenddata=_regno
+ visible=0
+ wposxy=250,450
+ zpos=2
+END
+
+BEGIN=SPRITE,name0
+ zpos=3
+ data=font
+ visible=0
+ wposxy=475,483
+ frames=38
+END
+
+BEGIN=SPRITE,name1
+ zpos=3
+ data=font
+ visible=0
+ wposxy=490,483
+ frames=38
+END
+
+BEGIN=SPRITE,name2
+ zpos=3
+ data=font
+ visible=0
+ wposxy=505,483
+ frames=38
+END
+
+BEGIN=SPRITE,name3
+ zpos=3
+ data=font
+ visible=0
+ wposxy=520,483
+ frames=38
+END
+
+
+BEGIN=SPRITE,name4
+ zpos=3
+ data=font
+ visible=0
+ wposxy=535,483
+ frames=38
+END
+
+BEGIN=SPRITE,name5
+ zpos=3
+ data=font
+ visible=0
+ wposxy=550,483
+ frames=38
+END
+
+BEGIN=SPRITE,name6
+ zpos=3
+ data=font
+ visible=0
+ wposxy=565,483
+ frames=38
+END
+
+BEGIN=SPRITE,name7
+ zpos=3
+ data=font
+ visible=0
+ wposxy=580,483
+ frames=38
+END
+
+BEGIN=SPRITE,name8
+ zpos=3
+ data=font
+ visible=0
+ wposxy=595,483
+ frames=38
+END
+
+BEGIN=SPRITE,name9
+ zpos=3
+ data=font
+ visible=0
+ wposxy=610,483
+ frames=38
+END
+
+BEGIN=SPRITE,name10
+ zpos=3
+ data=font
+ visible=0
+ wposxy=625,483
+ frames=38
+END
+
+BEGIN=SPRITE,name11
+ zpos=3
+ data=font
+ visible=0
+ wposxy=640,483
+ frames=38
+END
+
+BEGIN=SPRITE,name12
+ zpos=3
+ data=font
+ visible=0
+ wposxy=655,483
+ frames=38
+END
+
+BEGIN=SPRITE,name13
+ zpos=3
+ data=font
+ visible=0
+ wposxy=670,483
+ frames=38
+END
+
+BEGIN=SPRITE,name14
+ zpos=3
+ data=font
+ visible=0
+ wposxy=685,483
+ frames=38
+END
+
+BEGIN=SPRITE,name15
+ zpos=3
+ data=font
+ visible=0
+ wposxy=700,483
+ frames=38
+END
+
+BEGIN=SPRITE,name16
+ zpos=3
+ data=font
+ visible=0
+ wposxy=715,483
+ frames=38
+END
+
+BEGIN=SPRITE,name17
+ zpos=3
+ data=font
+ visible=0
+ wposxy=730,483
+ frames=38
+END
+
+BEGIN=SPRITE,name18
+ zpos=3
+ data=font
+ visible=0
+ wposxy=745,483
+ frames=38
+END
+
+BEGIN=SPRITE,name19
+ zpos=3
+ data=font
+ visible=0
+ wposxy=760,483
+ frames=38
+END
+
+BEGIN=SPRITE,name20
+ zpos=3
+ data=font
+ visible=0
+ wposxy=775,483
+ frames=38
+END
+
+BEGIN=SPRITE,code0
+ zpos=3
+ data=font
+ visible=0
+ wposxy=360,456
+ frames=38
+END
+
+BEGIN=SPRITE,code1
+ zpos=3
+ data=font
+ visible=0
+ wposxy=375,456
+ frames=38
+END
+
+BEGIN=SPRITE,code2
+ zpos=3
+ data=font
+ visible=0
+ wposxy=390,456
+ frames=38
+END
+
+BEGIN=SPRITE,code3
+ zpos=3
+ data=font
+ visible=0
+ wposxy=405,456
+ frames=38
+END
+
+
+BEGIN=SPRITE,code4
+ zpos=3
+ data=font
+ visible=0
+ wposxy=420,456
+ frames=38
+END
+
+BEGIN=SPRITE,code5
+ zpos=3
+ data=font
+ visible=0
+ wposxy=435,456
+ frames=38
+END
+
+BEGIN=SPRITE,code6
+ zpos=3
+ data=font
+ visible=0
+ wposxy=450,456
+ frames=38
+END
+
+BEGIN=SPRITE,code7
+ zpos=3
+ data=font
+ visible=0
+ wposxy=465,456
+ frames=38
+END
+
+BEGIN=SPRITE,code8
+ zpos=3
+ data=font
+ visible=0
+ wposxy=480,456
+ frames=38
+END
+
+BEGIN=SPRITE,code9
+ zpos=3
+ data=font
+ visible=0
+ wposxy=495,456
+ frames=38
+END
+
+BEGIN=SPRITE,code10
+ zpos=3
+ data=font
+ visible=0
+ wposxy=510,456
+ frames=38
+END
+
+BEGIN=SPRITE,code11
+ zpos=3
+ data=font
+ visible=0
+ wposxy=525,456
+ frames=38
+END
+
+BEGIN=SPRITE,code12
+ zpos=3
+ data=font
+ visible=0
+ wposxy=540,456
+ frames=38
+END
+
+BEGIN=SPRITE,code13
+ zpos=3
+ data=font
+ visible=0
+ wposxy=555,456
+ frames=38
+END
+
+BEGIN=SPRITE,code14
+ zpos=3
+ data=font
+ visible=0
+ wposxy=570,456
+ frames=38
+END
+
+BEGIN=SPRITE,code15
+ zpos=3
+ data=font
+ visible=0
+ wposxy=585,456
+ frames=38
+END
+
+BEGIN=SPRITE,code16
+ zpos=3
+ data=font
+ visible=0
+ wposxy=600,456
+ frames=38
+END
+
+BEGIN=SPRITE,code17
+ zpos=3
+ data=font
+ visible=0
+ wposxy=615,456
+ frames=38
+END
+
+BEGIN=SPRITE,code18
+ zpos=3
+ data=font
+ visible=0
+ wposxy=630,456
+ frames=38
+END
+
+BEGIN=SPRITE,code19
+ zpos=3
+ data=font
+ visible=0
+ wposxy=645,456
+ frames=38
+END
+
+BEGIN=SPRITE,code20
+ zpos=3
+ data=font
+ visible=0
+ wposxy=660,456
+ frames=38
+END

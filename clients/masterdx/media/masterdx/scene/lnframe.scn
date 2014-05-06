@@ -1,0 +1,61 @@
+BEGIN=SCENE,lnframe
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=1000
+ wheight=1000
+ zpos=2
+END
+
+BEGIN=SPRITE,lf1
+ data=lf1
+ wposxy=378,439
+ zpos=1
+END
+
+BEGIN=SPRITE,lf2
+ data=lf2
+ wposxy=377,405
+ zpos=1
+END
+
+BEGIN=SPRITE,lf3
+ data=lf3
+ wposxy=377,370
+ zpos=1
+END
+
+BEGIN=SPRITE,lf4
+ data=lf4
+ wposxy=375,331
+ zpos=1
+END
+
+BEGIN=SPRITE,lf5
+ data=lf5
+ wposxy=375,290
+ zpos=1
+END
+
+BEGIN=SPRITE,lf6
+ data=lf6
+ wposxy=374,246
+ zpos=1
+END
+
+BEGIN=SPRITE,lf7
+ data=lf7
+ wposxy=374,198
+ zpos=1
+END
+
+BEGIN=SPRITE,lf8
+ data=lf8
+ wposxy=372,148
+ zpos=1
+END
+
+BEGIN=SPRITE,lf9
+ data=lf9
+ wposxy=371,92 
+ zpos=1
+END

@@ -1,0 +1,30 @@
+#sound group
+BEGIN=GROUP,sound
+ samplerate=48000
+ maxchannels=32
+ initflags=0
+ archive=sound.gaf
+END
+
+BEGIN=SFX,check
+ fname=sound\check.wav
+ sfxtype=sample
+END
+
+BEGIN=SFX,get
+ fname=sound\get.wav
+END
+
+BEGIN=SFX,put
+ fname=sound\put.wav
+END
+
+BEGIN=SFX,start
+ fname=sound\start.wav
+END
+
+BEGIN=SFX,back
+ fname=sound\mosquito.s3m
+ sfxtype=music
+END
+

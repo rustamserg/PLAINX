@@ -1,0 +1,88 @@
+#help group
+BEGIN=GROUP,help
+ archive=master.gaf
+END
+
+BEGIN=DATA,help01
+ fname=anim\help\help01.jpg
+ ckey=0
+END
+
+BEGIN=DATA,help02
+ fname=anim\help\help02.jpg
+ ckey=0
+END
+
+BEGIN=DATA,help03
+ fname=anim\help\help03.jpg
+ ckey=0
+END
+
+BEGIN=DATA,arrowl
+ fname=anim\help\arrowl.gif
+ ckey=1
+END
+
+BEGIN=DATA,arrowr
+ fname=anim\help\arrowr.gif
+ ckey=1
+END
+
+BEGIN=DATA,cross
+ fname=anim\help\cross.gif
+ ckey=1
+END
+
+BEGIN=DATA,_arrowl
+ fname=anim\help\_arrowl.gif
+ memory=system
+END
+
+BEGIN=DATA,_arrowr
+ fname=anim\help\_arrowr.gif
+ memory=system
+END
+
+BEGIN=DATA,_cross
+ fname=anim\help\_cross.gif
+ memory=system
+END
+
+BEGIN=DATA,reginv
+ fname=anim\help\reginv.jpg
+END
+
+BEGIN=DATA,regwho
+ fname=anim\help\regwho.gif
+ ckey=1
+END
+
+BEGIN=DATA,_regwho
+ fname=anim\help\_regwho.gif
+ memory=system
+END
+
+BEGIN=DATA,regno
+ fname=anim\help\regno.gif
+ ckey=1
+END
+
+BEGIN=DATA,_regno
+ fname=anim\help\_regno.gif
+ memory=system
+END
+
+BEGIN=DATA,font
+ fname=anim\help\font.gif
+ ckey=1
+END
+
+BEGIN=DATA,plainx
+ fname=anim\help\plainx.jpg
+END
+
+BEGIN=DATA,skaven
+ fname=anim\help\skaven.jpg
+END
+
+

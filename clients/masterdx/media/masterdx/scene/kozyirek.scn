@@ -1,0 +1,13 @@
+BEGIN=SCENE,kozyirek
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=1000
+ wheight=1000
+ zpos=1
+END
+
+BEGIN=SPRITE,kozyirek
+ data=kozyirek
+ wposxy=408,473
+ zpos=2
+END

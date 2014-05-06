@@ -1,0 +1,119 @@
+#help group
+BEGIN=GROUP,dialog
+ archive=master.gaf
+END
+
+BEGIN=DATA,dialog
+ fname=anim\dialog\dialog.gif
+ ckey=1
+END
+
+BEGIN=DATA,okcenter
+ fname=anim\dialog\okcenter.jpg
+ ckey=0
+END
+
+BEGIN=DATA,okleft
+ fname=anim\dialog\okleft.jpg
+ ckey=0
+END
+
+BEGIN=DATA,cancel
+ fname=anim\dialog\cancel.jpg
+ ckey=0
+END
+
+BEGIN=DATA,win
+ fname=anim\dialog\win.gif
+ ckey=1
+END
+
+BEGIN=DATA,_win
+ fname=anim\dialog\_win.gif
+ memory=system
+END
+
+BEGIN=DATA,lose
+ fname=anim\dialog\lose.gif
+ ckey=1
+END
+
+BEGIN=DATA,_lose
+ fname=anim\dialog\_lose.gif
+ memory=system
+END
+
+BEGIN=DATA,mnewopt
+ fname=anim\dialog\mnewopt.gif
+ ckey=1
+END
+
+BEGIN=DATA,_mnewopt
+ fname=anim\dialog\_mnewopt.gif
+ memory=system
+END
+
+BEGIN=DATA,regok
+ fname=anim\dialog\regok.gif
+ ckey=1
+END
+
+BEGIN=DATA,regfail
+ fname=anim\dialog\regfail.gif
+ ckey=1
+END
+
+BEGIN=DATA,_regok
+ fname=anim\dialog\_regok.gif
+ memory=system
+END
+
+BEGIN=DATA,_regfail
+ fname=anim\dialog\_regfail.gif
+ memory=system
+END
+
+BEGIN=DATA,regname
+ fname=anim\dialog\regname.gif
+ ckey=1
+END
+
+BEGIN=DATA,regcode
+ fname=anim\dialog\regcode.gif
+ ckey=1
+END
+
+BEGIN=DATA,font
+ fname=anim\dialog\font.gif
+ ckey=1
+END
+
+BEGIN=DATA,dizit
+ fname=anim\dialog\dizit.gif
+ ckey=1
+END
+
+BEGIN=DATA,msnag
+ fname=anim\dialog\msnag.gif
+ ckey=1
+END
+
+BEGIN=DATA,_msnag
+ fname=anim\dialog\_msnag.gif
+ memory=system
+END
+
+BEGIN=DATA,nag
+ fname=anim\dialog\nag.gif
+ ckey=1
+END
+
+BEGIN=DATA,_nag
+ fname=anim\dialog\_nag.gif
+ memory=system
+END
+
+
+
+
+

@@ -1,0 +1,13 @@
+BEGIN=SCENE,selframe
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=1000
+ wheight=1000
+ zpos=5
+END
+
+BEGIN=SPRITE,selframe
+ data=selframe
+ wposxy=728,531
+ zpos=1
+END

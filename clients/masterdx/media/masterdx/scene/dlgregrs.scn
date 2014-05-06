@@ -1,0 +1,39 @@
+#example of sprite manager config file
+BEGIN=SCENE,dlgregres
+ viewrect=170,110,640,330
+ cameraxy=0,0
+ wwidth=500 
+ wheight=300
+ zpos=8
+END
+
+BEGIN=SPRITE,regok
+ data=regok
+ blenddata=_regok
+ wposxy=75,100
+ zpos=2
+ visible=0
+END
+
+BEGIN=SPRITE,regfail
+ data=regfail
+ blenddata=_regfail
+ wposxy=75,100
+ zpos=2
+ visible=0
+END
+
+BEGIN=SPRITE,okcenter
+ data=okcenter
+ wposxy=205,26
+ zpos=2
+ frames=2
+ visible=0
+END 
+
+BEGIN=SPRITE,dialog
+ data=dialog
+ wposxy=0,0
+ zpos=1
+ visible=0
+END

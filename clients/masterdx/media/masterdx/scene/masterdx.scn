@@ -1,0 +1,32 @@
+BEGIN=SCENE,masterdx_frame
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=1000
+ wheight=1000
+ zpos=3
+END
+
+BEGIN=SPRITE,frame
+ data=frame_l
+ wposxy=0,0
+ zpos=1
+END
+
+BEGIN=SPRITE,frame_r
+ data=frame_r
+ wposxy=770,0
+ zpos=1
+END
+
+BEGIN=SPRITE,frame_t
+ data=frame_t
+ wposxy=40,582
+ zpos=1
+END
+
+BEGIN=SPRITE,frame_b
+ data=frame_b
+ wposxy=40,0
+ zpos=1
+END
+

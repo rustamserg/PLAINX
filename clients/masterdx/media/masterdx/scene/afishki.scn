@@ -1,0 +1,298 @@
+#example of sprite manager config file
+BEGIN=SCENE,afishki
+ viewrect=0,0,800,600
+ cameraxy=0,0
+ wwidth=1000 
+ wheight=1000
+ zpos=2
+END
+
+
+BEGIN=SPRITE,afish11
+ data=afish11
+ wposxy=582,449
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish21
+ data=afish21
+ wposxy=587,416
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish31
+ data=afish31
+ wposxy=594,380
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish41
+ data=afish41
+ wposxy=600,342
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish51
+ data=afish51
+ wposxy=607,301
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish61
+ data=afish61
+ wposxy=616,256
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish71
+ data=afish71
+ wposxy=624,208
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish81
+ data=afish81
+ wposxy=632,156
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish91
+ data=afish91
+ wposxy=642,100
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish12
+ data=afish12
+ wposxy=598,449
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish22
+ data=afish22
+ wposxy=604,416
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish32
+ data=afish32
+ wposxy=611,380
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish42
+ data=afish42
+ wposxy=618,342
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish52
+ data=afish52
+ wposxy=626,301
+ frames=2
+ speed=0
+ zpos=1
+END
+  
+BEGIN=SPRITE,afish62
+ data=afish62
+ wposxy=635,256
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish72
+ data=afish72
+ wposxy=644,208
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish82
+ data=afish82
+ wposxy=653,156
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish92
+ data=afish92
+ wposxy=663,100
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish13
+ data=afish13
+ wposxy=615,449
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish23
+ data=afish23
+ wposxy=621,416
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish33
+ data=afish33
+ wposxy=629,380
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish43
+ data=afish43
+ wposxy=636,342
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish53
+ data=afish53
+ wposxy=645,301
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish63
+ data=afish63
+ wposxy=655,256
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish73
+ data=afish73
+ wposxy=664,208
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish83
+ data=afish83
+ wposxy=674,156
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish93
+ data=afish93
+ wposxy=685,100
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish14
+ data=afish14
+ wposxy=631,449
+ frames=2
+ speed=0
+ zpos=1
+END
+  
+BEGIN=SPRITE,afish24
+ data=afish24
+ wposxy=637,416
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish34
+ data=afish34
+ wposxy=646,380
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish44
+ data=afish44
+ wposxy=654,342
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish54
+ data=afish54
+ wposxy=663,301
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish64
+ data=afish64
+ wposxy=674,256
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish74
+ data=afish74
+ wposxy=684,208
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish84
+ data=afish84
+ wposxy=695,156
+ frames=2
+ speed=0
+ zpos=1
+END
+
+BEGIN=SPRITE,afish94
+ data=afish94
+ wposxy=707,100
+ frames=2
+ speed=0
+ zpos=1
+END
+
