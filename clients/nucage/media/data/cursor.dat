@@ -1,0 +1,15 @@
+#cursor group
+BEGIN=GROUP,cursor
+ archive=master.gaf
+END
+ 
+BEGIN=DATA,_cursor
+ fname=anim\cursor\_cursor.gif
+ memory=system
+END
+
+BEGIN=DATA,cursor
+ fname=anim\cursor\cursor.gif
+ ckey=1
+ memory=video
+END

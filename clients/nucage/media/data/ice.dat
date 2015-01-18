@@ -1,0 +1,132 @@
+#ice skin group
+BEGIN=GROUP,ice
+ archive=master.gaf
+END
+
+BEGIN=DATA,back
+ fname=anim\skins\ice\back.jpg
+END
+
+BEGIN=DATA,wintro
+ fname=anim\skins\ice\wintro.jpg
+ memory=system
+END
+
+BEGIN=DATA,osefs
+ fname=anim\skins\ice\osefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,bigstone
+ fname=anim\skins\ice\bigstone.gif
+ width=96
+ height=96
+END
+
+BEGIN=DATA,clock
+ fname=anim\skins\ice\clock.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,cross
+ fname=anim\skins\ice\cross.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,down
+ fname=anim\skins\ice\down.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,enter
+ fname=anim\skins\ice\enter.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,exit
+ fname=anim\skins\ice\exit.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greengate
+ fname=anim\skins\ice\g_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greenkey
+ fname=anim\skins\ice\g_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,left
+ fname=anim\skins\ice\left.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,leftright
+ fname=anim\skins\ice\l_right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,oldstone
+ fname=anim\skins\ice\oldstone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,plate
+ fname=anim\skins\ice\plate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redgate
+ fname=anim\skins\ice\r_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redkey
+ fname=anim\skins\ice\r_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,right
+ fname=anim\skins\ice\right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,stone
+ fname=anim\skins\ice\stone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,teleport
+ fname=anim\skins\ice\teleport.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,up
+ fname=anim\skins\ice\up.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,updown
+ fname=anim\skins\ice\updown.gif
+ width=32
+ height=32
+END

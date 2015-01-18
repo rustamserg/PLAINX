@@ -1,0 +1,132 @@
+#grass skin group
+BEGIN=GROUP,grass
+ archive=master.gaf
+END
+
+BEGIN=DATA,osefs
+ fname=anim\skins\grass\osefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,back
+ fname=anim\skins\grass\back.jpg
+END
+
+BEGIN=DATA,wintro
+ fname=anim\skins\grass\wintro.jpg
+ memory=system
+END
+
+BEGIN=DATA,bigstone
+ fname=anim\skins\grass\bigstone.gif
+ width=96
+ height=96
+END
+
+BEGIN=DATA,clock
+ fname=anim\skins\grass\clock.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,cross
+ fname=anim\skins\grass\cross.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,down
+ fname=anim\skins\grass\down.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,enter
+ fname=anim\skins\grass\enter.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,exit
+ fname=anim\skins\grass\exit.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greengate
+ fname=anim\skins\grass\g_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greenkey
+ fname=anim\skins\grass\g_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,left
+ fname=anim\skins\grass\left.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,leftright
+ fname=anim\skins\grass\l_right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,oldstone
+ fname=anim\skins\grass\oldstone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,plate
+ fname=anim\skins\grass\plate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redgate
+ fname=anim\skins\grass\r_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redkey
+ fname=anim\skins\grass\r_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,right
+ fname=anim\skins\grass\right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,stone
+ fname=anim\skins\grass\stone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,teleport
+ fname=anim\skins\grass\teleport.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,up
+ fname=anim\skins\grass\up.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,updown
+ fname=anim\skins\grass\updown.gif
+ width=32
+ height=32
+END

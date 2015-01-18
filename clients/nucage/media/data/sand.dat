@@ -1,0 +1,132 @@
+#sand skin group
+BEGIN=GROUP,sand
+ archive=master.gaf
+END
+
+BEGIN=DATA,back
+ fname=anim\skins\sand\back.jpg
+END
+
+BEGIN=DATA,wintro
+ fname=anim\skins\sand\wintro.jpg
+ memory=system
+END
+
+BEGIN=DATA,osefs
+ fname=anim\skins\sand\osefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,bigstone
+ fname=anim\skins\sand\bigstone.gif
+ width=96
+ height=96
+END
+
+BEGIN=DATA,clock
+ fname=anim\skins\sand\clock.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,cross
+ fname=anim\skins\sand\cross.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,down
+ fname=anim\skins\sand\down.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,enter
+ fname=anim\skins\sand\enter.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,exit
+ fname=anim\skins\sand\exit.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greengate
+ fname=anim\skins\sand\g_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greenkey
+ fname=anim\skins\sand\g_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,left
+ fname=anim\skins\sand\left.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,leftright
+ fname=anim\skins\sand\l_right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,oldstone
+ fname=anim\skins\sand\oldstone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,plate
+ fname=anim\skins\sand\plate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redgate
+ fname=anim\skins\sand\r_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redkey
+ fname=anim\skins\sand\r_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,right
+ fname=anim\skins\sand\right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,stone
+ fname=anim\skins\sand\stone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,teleport
+ fname=anim\skins\sand\teleport.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,up
+ fname=anim\skins\sand\up.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,updown
+ fname=anim\skins\sand\updown.gif
+ width=32
+ height=32
+END

@@ -1,0 +1,34 @@
+#actor and effects group
+BEGIN=GROUP,actor
+ archive=master.gaf
+END
+
+BEGIN=DATA,tpefs
+ fname=anim\actor\tpefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,keyefs
+ fname=anim\actor\keyefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,doorefs
+ fname=anim\actor\doorefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,clockefs
+ fname=anim\actor\clockefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,player
+ fname=anim\actor\player.gif
+ ckey=1
+END
+
+BEGIN=DATA,ramka
+ fname=anim\actor\ramka.gif
+ ckey=1
+END

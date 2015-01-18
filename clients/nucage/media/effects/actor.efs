@@ -1,0 +1,24 @@
+# teleport, key take, door open, clock take effects
+BEGIN=EFFECT,teleport
+ sprite=tpefs
+ cycles=1
+ speed=8
+END
+
+BEGIN=EFFECT,key
+ sprite=keyefs
+ cycles=1
+ speed=8
+END
+
+BEGIN=EFFECT,door
+ sprite=doorefs
+ cycles=1
+ speed=8
+END
+
+BEGIN=EFFECT,clock
+ sprite=clockefs
+ cycles=1
+ speed=8
+END

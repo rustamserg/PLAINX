@@ -1,0 +1,160 @@
+BEGIN=SCENE,level
+ viewrect=0,0,640,480
+ cameraxy=0,0
+ wwidth=640
+ wheight=1000
+ zpos=1
+END
+
+BEGIN=SPRITE,back
+ data=back
+ wposxy=0,0
+ zpos=1
+END
+
+BEGIN=SPRITE,wintro
+ data=wintro
+ wposxy=0,0
+ zpos=7
+END
+
+BEGIN=SPRITE,osefs
+ data=osefs
+ wposxy=0,0
+ zpos=0
+ frames=8
+ hotspot=0,32
+END
+
+BEGIN=SPRITE,bigstone
+ data=bigstone
+ wposxy=0,700
+ hotspot=0,96
+ zpos=3
+END
+
+BEGIN=SPRITE,clock
+ data=clock
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,cross
+ data=cross
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,down
+ data=down
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,enter
+ data=enter
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,exit
+ data=exit
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,greengate
+ data=greengate
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,greenkey
+ data=greenkey
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,left
+ data=left
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,leftright
+ data=leftright
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,oldstone
+ data=oldstone
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,plate
+ data=plate
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,redkey
+ data=redkey
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,redgate
+ data=redgate
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,right
+ data=right
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,stone
+ data=stone
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,teleport
+ data=teleport
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,up
+ data=up
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END
+
+BEGIN=SPRITE,updown
+ data=updown
+ wposxy=0,550
+ hotspot=0,32
+ zpos=3
+END

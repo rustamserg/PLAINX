@@ -1,0 +1,57 @@
+BEGIN=SCENE,actor
+ viewrect=0,0,640,480
+ cameraxy=0,0
+ wwidth=640
+ wheight=1000
+ zpos=2
+END
+
+BEGIN=SPRITE,rlplayer
+ data=player
+ wposxy=0,0
+ hotspot=0,32
+ rows=7
+ frames=8
+ speed=0
+ zpos=2
+END
+
+BEGIN=SPRITE,shplayer
+ data=ramka
+ wposxy=0,0
+ hotspot=0,32
+ zpos=2
+END
+
+BEGIN=SPRITE,tpefs
+ data=tpefs
+ wposxy=0,0
+ zpos=0
+ frames=8
+ hotspot=0,32
+END
+
+BEGIN=SPRITE,clockefs
+ data=clockefs
+ wposxy=0,0
+ zpos=0
+ frames=8
+ hotspot=0,32
+END
+
+BEGIN=SPRITE,keyefs
+ data=keyefs
+ wposxy=0,0
+ zpos=0
+ frames=8
+ hotspot=0,32
+END
+
+BEGIN=SPRITE,doorefs
+ data=doorefs
+ wposxy=0,0
+ zpos=0
+ frames=8
+ hotspot=0,32
+END
+

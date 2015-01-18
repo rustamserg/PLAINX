@@ -1,0 +1,132 @@
+#gold skin group
+BEGIN=GROUP,gold
+ archive=master.gaf
+END
+
+BEGIN=DATA,osefs
+ fname=anim\skins\gold\osefs.gif
+ ckey=1
+END
+
+BEGIN=DATA,back
+ fname=anim\skins\gold\back.jpg
+END
+
+BEGIN=DATA,wintro
+ fname=anim\skins\gold\wintro.jpg
+ memory=system
+END
+
+BEGIN=DATA,bigstone
+ fname=anim\skins\gold\bigstone.gif
+ width=96
+ height=96
+END
+
+BEGIN=DATA,clock
+ fname=anim\skins\gold\clock.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,cross
+ fname=anim\skins\gold\cross.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,down
+ fname=anim\skins\gold\down.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,enter
+ fname=anim\skins\gold\enter.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,exit
+ fname=anim\skins\gold\exit.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greengate
+ fname=anim\skins\gold\g_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,greenkey
+ fname=anim\skins\gold\g_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,left
+ fname=anim\skins\gold\left.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,leftright
+ fname=anim\skins\gold\l_right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,oldstone
+ fname=anim\skins\gold\oldstone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,plate
+ fname=anim\skins\gold\plate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redgate
+ fname=anim\skins\gold\r_gate.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,redkey
+ fname=anim\skins\gold\r_key.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,right
+ fname=anim\skins\gold\right.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,stone
+ fname=anim\skins\gold\stone.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,teleport
+ fname=anim\skins\gold\teleport.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,up
+ fname=anim\skins\gold\up.gif
+ width=32
+ height=32
+END
+
+BEGIN=DATA,updown
+ fname=anim\skins\gold\updown.gif
+ width=32
+ height=32
+END

@@ -1,0 +1,6 @@
+# old stone effect
+BEGIN=EFFECT,oldstone
+ sprite=osefs
+ cycles=1
+ speed=16
+END

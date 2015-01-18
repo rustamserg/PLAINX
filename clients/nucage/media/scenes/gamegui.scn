@@ -1,0 +1,131 @@
+BEGIN=SCENE,gamegui
+ viewrect=0,0,640,480
+ cameraxy=0,0
+ wwidth=640
+ wheight=480
+ zpos=3
+END
+
+BEGIN=SPRITE,button
+ data=button
+ wposxy=0,0
+ zpos=0
+ frames=3
+END
+
+BEGIN=SPRITE,bar
+ data=bar
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,stmback
+ data=stmback
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,smback
+ data=smback
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,fmback
+ data=fmback
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,lvlcell
+ data=lvlcell
+ wposxy=250,200
+ zpos=0
+END
+
+BEGIN=SPRITE,larbutt
+ data=larbutt
+ wposxy=0,0
+ zpos=0
+ frames=3
+END
+
+BEGIN=SPRITE,rarbutt
+ data=rarbutt
+ wposxy=0,0
+ zpos=0
+ frames=3
+END
+
+BEGIN=SPRITE,wrdname
+ data=strpatt
+ wposxy=310,380
+ zpos=0
+END
+
+BEGIN=SPRITE,lvlnum
+ data=strpatt
+ wposxy=310,160
+ zpos=0
+END
+
+BEGIN=SPRITE,winscr
+ data=winscr
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,chkbox
+ data=chkbox
+ wposxy=0,0
+ zpos=0
+ frames=2
+END
+
+BEGIN=SPRITE,hoback
+ data=hoback
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,hclock
+ data=hclock
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,henter
+ data=henter
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,hexit
+ data=hexit
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,hgate
+ data=hgate
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,hkey
+ data=hkey
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,holdstone
+ data=holdstone
+ wposxy=0,0
+ zpos=0
+END
+
+BEGIN=SPRITE,hteleport
+ data=hteleport
+ wposxy=0,0
+ zpos=0
+END

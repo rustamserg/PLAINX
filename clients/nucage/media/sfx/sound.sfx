@@ -1,0 +1,54 @@
+#sound group
+BEGIN=GROUP,sound
+ samplerate=48000
+ maxchannels=32
+ initflags=0
+ archive=sound.gaf
+END
+
+#used for pass thru doors
+#teleports, old stone
+BEGIN=SFX,pass
+ fname=sound\pass.wav
+ sfxtype=sample
+END
+
+#used after getting keys, times
+BEGIN=SFX,get
+ fname=sound\get.wav
+END
+
+#used during mouse click on buttons
+BEGIN=SFX,click
+ fname=sound\click.wav
+END
+
+#start level
+BEGIN=SFX,start
+ fname=sound\start.wav
+END
+
+BEGIN=SFX,backlogo
+ fname=sound\spltfest.s3m
+ sfxtype=music
+END
+
+BEGIN=SFX,backdesr
+ fname=sound\crystald.s3m
+ sfxtype=music
+END
+
+BEGIN=SFX,backice
+ fname=sound\icefront.s3m
+ sfxtype=music
+END
+
+BEGIN=SFX,backgold
+ fname=sound\hereyes.s3m
+ sfxtype=music
+END
+
+BEGIN=SFX,backfors
+ fname=sound\invtro94.s3m
+ sfxtype=music
+END

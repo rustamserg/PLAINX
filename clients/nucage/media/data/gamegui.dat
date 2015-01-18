@@ -1,0 +1,91 @@
+#game GUI - game buttons group
+BEGIN=GROUP,gamegui
+ archive=master.gaf
+END
+
+BEGIN=DATA,button
+ fname=anim\gamegui\button.gif
+ memory=system
+ ckey=1
+END
+
+BEGIN=DATA,stmback
+ fname=anim\gamegui\stmback.jpg
+END
+
+BEGIN=DATA,smback
+ fname=anim\gamegui\smback.jpg
+END
+
+BEGIN=DATA,fmback
+ fname=anim\gamegui\fmback.jpg
+END
+
+BEGIN=DATA,bar
+ fname=anim\gamegui\bar.jpg
+END
+
+BEGIN=DATA,lvlcell
+ fname=anim\gamegui\lvlcell.gif
+END
+
+BEGIN=DATA,larbutt
+ fname=anim\gamegui\larbutt.gif
+ memory=system
+ ckey=1
+END
+
+BEGIN=DATA,rarbutt
+ fname=anim\gamegui\rarbutt.gif
+ memory=system
+ ckey=1
+END
+
+BEGIN=DATA,strpatt
+ fname=anim\gamegui\strpatt.gif
+ ckey=1
+END
+
+BEGIN=DATA,winscr
+ fname=anim\gamegui\winscr.jpg
+ memory=system
+END
+
+BEGIN=DATA,chkbox
+ fname=anim\gamegui\chkbox.gif
+ memory=system
+ ckey=1
+END
+
+BEGIN=DATA,hoback
+ fname=anim\gamegui\hoback.jpg
+ memory=system
+END
+
+BEGIN=DATA,hclock
+ fname=anim\skins\sand\clock.gif
+END
+
+BEGIN=DATA,henter
+ fname=anim\skins\sand\enter.gif
+END
+
+BEGIN=DATA,hexit
+ fname=anim\skins\sand\exit.gif
+END
+
+BEGIN=DATA,hgate
+ fname=anim\skins\sand\g_gate.gif
+END
+
+BEGIN=DATA,hkey
+ fname=anim\skins\sand\g_key.gif
+END
+
+BEGIN=DATA,holdstone
+ fname=anim\skins\sand\oldstone.gif
+END
+
+BEGIN=DATA,hteleport
+ fname=anim\skins\sand\teleport.gif
+END
